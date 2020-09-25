@@ -19,7 +19,7 @@ nav {
   display: flex;
   width: 100%;
   height: 80px;
-  padding: 40px 200px;
+  padding: 70px 200px 100px 200px;
   justify-content: space-between;
   align-items: center;
 }
@@ -49,14 +49,35 @@ li a:hover {
 }
 
 main {
-  width: 800px;
+  width: 900px;
   margin: auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {
-  height: 700px;
-  width: 500px;
+  height: 650px;
+  width: 400px;
   object-fit: cover;
+}
+
+.left {
+  width: 400px;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(228, 106, 187);
+  color: white;
+  font-weight: 400;
+  width: 50%;
+  height: 50px;
+  margin-top: 50px;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
