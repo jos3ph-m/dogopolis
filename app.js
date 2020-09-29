@@ -2,17 +2,15 @@ function pageTransition() {
   const tl = gsap.timeline();
 
   tl.to("ul.transition li", {
-    duration: 0.6,
+    duration: 0.7,
     scaleY: 1,
     transformOrigin: "bottom left",
-    stagger: 0.1,
+    stagger: 0.2,
   });
   tl.to("ul.transition li", {
-    duration: 0.3,
+    duration: 0.6,
     scaleY: 0,
     transformOrigin: "bottom left",
-    stagger: 0.2,
-    delay: 0.1,
   });
 }
 

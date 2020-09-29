@@ -119,5 +119,5 @@ ul.transition {
 ul.transition li {
   transform: scaleY(0);
   background: #d7cdcc;
-  width: 10%;
+  width: 25%;
 }
