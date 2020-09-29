@@ -2,10 +2,11 @@ function pageTransition() {
   const tl = gsap.timeline();
 
   tl.to("ul.transition li", {
-    duration: 0.7,
+    duration: 0.8,
     scaleY: 1,
     transformOrigin: "bottom left",
     stagger: 0.2,
+    ease: "power1.out",
   });
   tl.to("ul.transition li", {
     duration: 0.6,
@@ -15,7 +16,14 @@ function pageTransition() {
   });
 }
 
-function pictureAnimation() {}
+function pictureAnimation() {
+  const tl = gsap.timeline();
+  tl.to("img", {
+    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+    duration: 0.6,
+    stagger: 0.4,
+  });
+}
 
 function delay(n) {
   n = n || 2000;
