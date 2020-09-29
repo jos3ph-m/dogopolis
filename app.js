@@ -11,6 +11,7 @@ function pageTransition() {
     duration: 0.6,
     scaleY: 0,
     transformOrigin: "bottom left",
+    stagger: 0.1,
   });
 }
 
